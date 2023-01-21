@@ -1,0 +1,71 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.resize{
+    resize: none;
+}
+
+.bg-green{
+    background-color: #07AB80;
+}
+
+.bg-gray{
+    background-color: #EAEAEA;
+}
+
+.icon-green{
+    color: #07ab80;
+}
+
+.navbar{
+    background-color: #07AB80;
+    color: #FFFFFF;
+}
+
+.bg-image{
+    background-image: url(dog-2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.shadow{
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.checkbox-text{
+    font-size: small;
+    padding: 1em;
+    text-align: start;
+}
+
+.card-text{
+    font-size: small;
+}
+
+.dog-img{
+    height: 30vh;
+    width: 100%;
+    object-fit: fill;
+}
+
+.glass-card{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.glass-card-hidden{
+    background-color: rgba(255, 255, 255, 0);
+    border-left: 5px solid #07AB80;
+    padding-left: 1em;
+    margin-top: 5em;
+}
+
+.card-overlap{
+    transform: translateY(2vh)
+}
+
+@media (max-width: 767px) {
+    .hidden-mobile {
+        display: none;
+    }
+}
