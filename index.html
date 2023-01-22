@@ -34,32 +34,40 @@
 <body class="">
     
     <header class="sticky-top">
-
+    
         <!-- SECTION Nav Bar -->
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 navbar">
-                    <i class="mdi mdi-google-podcast fs-3 m-3"><b>Lorem Ipsum</b></i>
+                <div class="col-12 navbar d-flex flex-row justify-content-start align-items-center p-0">
+                    <i class="mdi mdi-spider-web text-light fs-1 ps-3"></i>
+                    <p class="m-0 ps-2 fs-3"><b>Lorem Ipsum</b></p>
                 </div>
             </div>
         </div>
-
+    
     </header>
+    
+    <main>
+        <!-- SECTION Background Video w/ Form Card (why won't the video fullscreen to it's container? Why won't it autoplay in mobile?)-->
+        <div class="container-fluid position-relative p-3 bg-image" id="">
 
+            <!-- <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/xsx3JCw62WQ?controls=0&autoplay=1&mute=1&playsinline=1&loop=1&playlist=xsx3JCw62WQ"></iframe>
+            </div> -->
+            
+                <!-- <video playsinline autoplay muted loop id="bgvideo">
+                    <source src="spiderman.mp4" type="video/mp4">
+                </video> -->
 
-    <body>
-
-        <!-- SECTION Background Image w/ Form Card -->
-        <div class="container-fluid bg-image p-3">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="text-light">Subtle Heading</h2>
+                    <h2 class="text-light" id="">Subtle Heading</h2>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="">
                 <div class="col-12 col-md-5">
-                    <div class="card shadow p-3">
-                        <h3 class="p-2 text-success">Less Subtle Heading</h3>
+                    <div class="card-forms shadow p-3">
+                        <h3 class="p-2">Less Subtle Heading</h3>
                         <form>
                             <div class="p-2">
                                 <input type="text" class="form-control" id="name" placeholder="Name">
@@ -81,7 +89,7 @@
                         </form>
                         <!-- SECTION checkbox (why won't it align or justify? how to change checkbox size and color?) -->
                         <div class="row">
-                            <div class="col-12 d-flex justify-content-top ps-4">
+                            <div class="col-12 d-flex justify-content-center align-items-center ps-4">
                                 <input type="checkbox" checked="checked">
                                 <p class="checkbox-text">By clicking this box I agree to the terms of lorem ipsum</p>
                             </div>
@@ -99,20 +107,20 @@
                 </div>
             </div>
         </div>
-
+    
         <!-- SECTION card that needs to overflow on fullscreen -->
-        <div class="container-fluid bg-green">
+        <div class="container-fluid bg-red text-black" id="">
             <div class="row">
-                <div class="order-2 order-md-1 col-12 col-md-5 text-light py-3">
+                <div class="order-2 order-md-1 col-12 col-md-5 py-3">
                     <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, autem neque architecto beatae consequuntur sed illum dignissimos ullam eos exercitationem?</p>
                 </div>
-
-                <div class="order-1 order-md-2 col-12 col-md-7">
-                    <div class="container card py-1 mt-3 card-overlap">
+    
+                <div class="order-1 order-md-2 col-12 col-md-7 position-relative">
+                    <div class="container card shadow py-1 mt-3" id="card-overlap">
                         <div class="row">
                             <div class="col-2 d-flex align-items-center justify-content-center">
-                                <i class="mdi mdi-wrench icon-green fs-1"></i>
+                                <i class="mdi mdi-wrench icon-blue fs-1"></i>
                             </div>
                             <div class="col-10 pt-2 d-flex justify-content-start align-items-center">
                                 <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, ipsum?</p>
@@ -120,7 +128,7 @@
                         </div>
                         <div class="row">
                             <div class="col-2 d-flex align-items-center justify-content-center">
-                                <i class="mdi mdi-car icon-green fs-1"></i>
+                                <i class="mdi mdi-car icon-blue fs-1"></i>
                             </div>
                             <div class="col-10 pt-2 d-flex justify-content-start align-items-center">
                                 <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, ipsum?</p>
@@ -128,7 +136,7 @@
                         </div>
                         <div class="row">
                             <div class="col-2 d-flex align-items-center justify-content-center">
-                                <i class="mdi mdi-phone-in-talk icon-green fs-1"></i>
+                                <i class="mdi mdi-phone-in-talk icon-blue fs-1"></i>
                             </div>
                             <div class="col-10 pt-2 d-flex justify-content-start align-items-center">
                                 <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, ipsum?</p>
@@ -136,7 +144,7 @@
                         </div>
                         <div class="row">
                             <div class="col-2 d-flex align-items-center justify-content-center">
-                                <i class="mdi mdi-chart-bubble icon-green fs-1"></i>
+                                <i class="mdi mdi-chart-bubble icon-blue fs-1"></i>
                             </div>
                             <div class="col-10 pt-2 d-flex  justify-content-start align-items-center">
                                 <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, ipsum?</p>
@@ -144,7 +152,7 @@
                         </div>
                         <div class="row">
                             <div class="col-2 d-flex align-items-center justify-content-center">
-                                <i class="mdi mdi-lightning-bolt-circle icon-green fs-1"></i>
+                                <i class="mdi mdi-lightning-bolt-circle icon-blue fs-1"></i>
                             </div>
                             <div class="col-10 pt-2 d-flex justify-content-start align-items-center">
                                 <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, ipsum?</p>
@@ -154,79 +162,81 @@
                 </div>
             </div>
         </div>
-
+    
         <!-- SECTION large image with right text being overlapped -->
-        <div class="container-fluid">
-            <div class="row mb-3">
+        <div class="container-fluid text-black">
+            <div class="row pb-3">
                 <div class="col-md-4">
-                    <img src="dog.jpeg" alt="" class="img-fluid dog-img p-3">
+                    <img src="spider-point.jpeg" alt="" class="point-img p-3">
                 </div>
-                <div class="col-md-8 d-flex flex-column justify-content-end">
+                <div class="col-md-8 d-flex flex-column justify-content-end padding-9">
                     <div class="d-flex flex-row">
-                        <i class="mdi mdi-shield-check fs-1 icon-green"></i>
+                        <i class="mdi mdi-shield-check fs-1 icon-blue"></i>
                         <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
                     </div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, et nostrum fugit sit, dolores doloribus vel illum repellat excepturi sequi velit aspernatur necessitatibus laboriosam vero ab tempora architecto qui quibusdam.</p>
-                <div class="d-flex flex-row justify-content-end">
-                    <button class="btn btn-success">More</button>
+                    <div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, et nostrum fugit sit, dolores doloribus vel illum repellat excepturi sequi velit aspernatur necessitatibus laboriosam vero ab tempora architecto qui quibusdam.</p>
+                    </div>
+                    <div class="d-flex flex-row justify-content-end">
+                        <button class="btn btn-success">More</button>
+                    </div>
                 </div>
             </div>
-            </div>
         </div>
-
+    
         <!-- SECTION testimonial cards -->
-        <div class="container-fluid bg-gray p-5">
-            <div class="row d-flex flex-row align-items-center">
-
+        <div class="container-fluid bg-blue text-black p-5">
+            <div class="row d-flex flex-md-row align-items-md-center">
+    
                 <div class="order-2 order-md-1 col-md-4">
-                    <div class="card shadow text-center p-3">
+                    <div class="card shadow text-center p-3 mt-2 mb-2">
                         <div class="d-flex flex-column align-items-start">
                             <i class="mdi mdi-format-quote-open"></i>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quos!</p>
                         </div>
                         <div class="d-flex flex-column justify-content-center align-items-center">
-                            <p class="icon-green m-0">Lorem</p>
-                            <p class="icon-green m-0">Lorem ipsum dolor sit</p>
+                            <p class="icon-blue m-0">Lorem</p>
+                            <p class="icon-blue m-0">Lorem ipsum dolor sit</p>
                         </div>
                     </div>
                 </div>
-
+    
                 <div class="order-1 order-md-2 col-md-4">
-                    <div class="card shadow text-center p-3">
+                    <div class="card shadow text-center p-3 mt-2 mb-2">
                         <div class="d-flex flex-row justify-content-center align-items-start">
-                            <i class="mdi mdi-star-circle icon-green fs-1"></i>
-                            <i class="mdi mdi-star-circle icon-green fs-1"></i>
-                            <i class="mdi mdi-star-circle icon-green fs-1"></i>
+                            <i class="mdi mdi-star-circle icon-red fs-1"></i>
+                            <i class="mdi mdi-star-circle icon-red fs-1"></i>
+                            <i class="mdi mdi-star-circle icon-red fs-1"></i>
                         </div>
                         <div class="d-flex flex-column align-items-start">
                             <i class="mdi mdi-format-quote-open"></i>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quos!</p>
                         </div>
                         <div class="d-flex flex-column justify-content-center align-items-center">
-                            <p class="icon-green m-0">Lorem</p>
-                            <p class="icon-green m-0">Lorem ipsum dolor sit</p>
+                            <p class="icon-blue m-0">Lorem</p>
+                            <p class="icon-blue m-0">Lorem ipsum dolor sit</p>
                         </div>
                     </div>
                 </div>
-
+    
                 <div class="order-3 order-md-3 col-md-4">
-                    <div class="card shadow text-center p-3">
+                    <div class="card shadow text-center p-3 mt-2 mb-2">
                         <div class="d-flex flex-column align-items-start">
                             <i class="mdi mdi-format-quote-open"></i>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quos!</p>
                         </div>
                         <div class="d-flex flex-column justify-content-center align-items-center">
-                            <p class="icon-green m-0">Lorem</p>
-                            <p class="icon-green m-0">Lorem ipsum dolor sit</p>
+                            <p class="icon-blue m-0">Lorem</p>
+                            <p class="icon-blue m-0">Lorem ipsum dolor sit</p>
                         </div>
                     </div>
                 </div>
-
+    
             </div>
         </div>
-
+    
         <!-- SECTION green pre-footer area -->
-        <div class="container-fluid bg-green text-light">
+        <div class="container-fluid bg-red text-black">
             <div class="row p-5">
                 <div class="col-12">
                     <h1>Lorem ipsum dolor sit amet.</h1>
@@ -234,21 +244,21 @@
                 </div>
             </div>
         </div>
-
-    </body>
-
-
+    
+    </main>
+    
+    
     <footer>
-
+    
         <!-- SECTION just a footer -->
-        <div class="container-fluid bg-gray p-3">
+        <div class="container-fluid bg-blue p-3">
             <div class="row">
                 <div class="col-12 d-flex flex-row justify-content-center align-items-center">
-                    <p class="icon-green m-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos a reiciendis</p>
+                    <p class="text-light m-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos a reiciendis</p>
                 </div>
             </div>
         </div>
-
+    
     </footer>
 
 </body>

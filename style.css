@@ -2,29 +2,41 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.card-forms{
+    background-color: #2b6abd9c;
+    color: white;
+    border-radius: 5px;
+}
+
 .resize{
     resize: none;
 }
 
-.bg-green{
-    background-color: #07AB80;
+.bg-red{
+    background-color: #b4202e;
 }
 
-.bg-gray{
-    background-color: #EAEAEA;
+.bg-blue{
+    background-color: #114c92;
 }
 
-.icon-green{
-    color: #07ab80;
+.icon-blue{
+    color: #447bbe;
+}
+
+.icon-red{
+    color: #b4202e;
 }
 
 .navbar{
-    background-color: #07AB80;
-    color: #FFFFFF;
+    background-color: #b4202e;
+    color: black;
+    padding: 0;
+    box-shadow: .5px .5px 5px black;
 }
 
 .bg-image{
-    background-image: url(dog-2.jpeg);
+    background-image: url(spider2.gif);
     background-size: cover;
     background-position: center;
 }
@@ -35,18 +47,18 @@
 
 .checkbox-text{
     font-size: small;
-    padding: 1em;
-    text-align: start;
+    padding-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .card-text{
     font-size: small;
 }
 
-.dog-img{
-    height: 30vh;
-    width: 100%;
-    object-fit: fill;
+.point-img{
+    height: 20em;
+    max-width: 100%;
 }
 
 .glass-card{
@@ -55,17 +67,85 @@
 
 .glass-card-hidden{
     background-color: rgba(255, 255, 255, 0);
-    border-left: 5px solid #07AB80;
+    border-left: 5px solid #b4202e;
     padding-left: 1em;
     margin-top: 5em;
 }
 
-.card-overlap{
-    transform: translateY(2vh)
+.position-relative{
+    position: relative;
 }
+
+
+@media (min-width: 767px){
+    #card-overlap{
+        position: absolute;
+        max-width: 95%
+    }
+}
+
 
 @media (max-width: 767px) {
     .hidden-mobile {
         display: none;
+    }
+}
+
+
+/* .video-container{
+    position: relative;
+} */
+
+
+/* frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 480px;
+    height: 480px;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+} */
+
+/* video#bgvideo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+} */
+
+
+input{
+    accent-color: #114c92;
+    height: 40px;
+    width: 40px;
+}
+
+.btn-success{
+    background-color: #114c92 !important;
+}
+
+.btn-outline-success{
+    background-color: #114c92 !important;
+    color: white !important;
+    border-color: #2b6bbd !important;
+}
+
+.padding-9{
+    padding-top: 9em;
+}
+
+@media (max-width: 767px){
+    .padding-9{
+        padding-top: 1em;
     }
 }
