@@ -28,11 +28,11 @@
 }
 
 .icon-blue{
-    color: #447bbe;
+    color: #1864c1;
 }
 
 .icon-red{
-    color: #b4202e;
+    color: rgb(239, 182, 37);
 }
 
 .navbar{
@@ -64,7 +64,7 @@
 }
 
 .card-text{
-    font-size: small;
+    font-size: medium;
 }
 
 .point-img{
@@ -161,11 +161,11 @@ input{
 }
 
 .btn-success{
-    background-color: #114c92 !important;
+    background-color: rgb(249, 189, 37) !important;
 }
 
 .btn-outline-success{
-    background-color: #114c92 !important;
+    background-color: rgb(249, 189, 37) !important;
     color: white !important;
     border-color: #2b6bbd !important;
 }
